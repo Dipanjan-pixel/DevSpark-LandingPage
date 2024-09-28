@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: linear-gradient(to right, #000000, #321346);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.hero {
+
+    height:50vh;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.hero h1{
+
+    font-size: xx-large;
+    margin: 3%;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: linear-gradient(to right, #000000, #321346);
+}
+
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.our-services {
+    text-align: center;
+    padding: 2rem;
+    background-color: lightgray;
+}
+
+.logo{
+
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo h1{
+    padding-left: 20px;
+    font-size: x-large;
+    font-family: "Playwrite AR";
+    font-weight: 700;
+}
+
+.logo img{
+
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 500px;
+}
+
+.cta-button{
+
+    
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.cta-buttons button{
+
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.aboutimg{
+
+    width: 30%;
+    border-bottom: solid black 2px;
+    border-radius: 30px;
+    margin-left: 5%;
+}
+
+.aboutimg img{
+
+    height: 400px;
+}
+
+.footwear{
+
+    background-color: black;
+    text-align: center;
+}
+
+.footer-text{
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.about-box h1{
+
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+
+.about-box p{
+
+    margin-top: 1%;
+    font-family:  'Gill Sans MT';
+}
+
+.title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2{
+
+    color: white;
+}
+
+.title img{
+
+    width: 35px;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-right: 10%;
+}
+
+.feature1 p{
+   color: white;
+   font-family:  'Gill Sans MT';
+   margin-left: 15%;
+   margin-top: 2%;
+}
+
+.servicesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service-box p{
+
+    background-color: white;
+    font-size: larger;
+    padding: 10px;
+}
+
+.service-box{
+
+    margin: 2%;
+}
+
+.service-box img{
+
+    height: 200px;
+}
+
